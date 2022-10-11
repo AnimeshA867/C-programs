@@ -8,7 +8,7 @@ int main()
    scanf("%d",&n);
    printf("Enter names in any order:");
    for(i=0;i<n;i++){
-        scanf("%s", str[i]);
+        gets(str[i]);
    }
    for(i=0;i<n;i++){
         for (j = i + 1; j < n; j++)
